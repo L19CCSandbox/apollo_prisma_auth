@@ -1,6 +1,5 @@
 import React from 'react';
 import {useAuth0} from '../contexts/auth0-context';
-import {Link} from 'react-router-dom'
 import './Header.css'
 import {useQuery} from '@apollo/react-hooks';
 import GET_USERS from '../graphql/users.query';

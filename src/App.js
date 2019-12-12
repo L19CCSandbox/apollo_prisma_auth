@@ -2,8 +2,6 @@ import React, {useState} from 'react';
 import 'bulma/css/bulma.css';
 import {Route} from 'react-router-dom';
 import Home from './components/home';
-import Login from './components/login';
-import Register from './components/register';
 import Dashboard from './components/dashboard';
 import Header from './components/header';
 
@@ -89,8 +87,6 @@ function App() {
                 </>
               )}
               <Route exact path='/' component={Home}/>
-              <Route exact path='/login' component={Login}/>
-              <Route exact path='/register' component={Register}/>
               <Route exact path='/dashboard' component={Dashboard}/>
             </div>
           </div>
