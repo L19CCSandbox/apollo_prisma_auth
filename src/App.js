@@ -55,7 +55,7 @@ function App() {
     link: authLink.concat(httpLink),
     cache: new InMemoryCache()
   });
-
+  
   return (
     <ApolloProvider client={client}>
       <Header/>

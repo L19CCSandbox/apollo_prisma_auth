@@ -6,6 +6,8 @@ import GET_USERS from '../graphql/users.query';
 
 export default function Header() {
   const {isLoading, user, loginWithRedirect, logout} = useAuth0();
+
+  //just to test making a request to apollo server
   const {data, loading, error} = useQuery(GET_USERS);
 
   if(loading){
